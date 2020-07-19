@@ -11,6 +11,7 @@ class Map:
         self.setGoal()
         print(self.map)
 
+    #TODO: make start and goal random
     def setStart(self):
         self.map[1][1] = 'S'
 
